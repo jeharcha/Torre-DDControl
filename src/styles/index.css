@@ -1,13 +1,65 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* div {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px 5px;
+} */
+
+.container {
+  display: grid;
+  max-height: 40%;
+  margin-left: 0px;
+  grid-template-columns: 5fr 2fr; /*repeat(auto-fit, minmax(240px, 1fr)); 70% 25%; */
+  grid-template-rows: 62vh 23vh; /*minmax(310px, 2fr) minmax(310px, 1fr);/* repeat(2, minmax(310px, 1fr)); /* 450px 450px; */
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.up-left-box {
+  /* Map */
+  margin-top: 10px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 1;
+}
+
+.right-column {
+  /* Chat */
+  margin-top: 10px;
+  grid-column: 2 / 2;
+  grid-row: 1 / span 2;
+}
+
+.scrollable {
+  overflow: auto;
+  max-height: 40vh;
+}
+
+.bottom-left-box {
+  /* Board */
+  margin-top: 10px;
+  grid-column: 1 / 1;
+  grid-row: 2 / 2;
+  max-height: 450px;
+}
+
+#mapid {
+  height: 200px;
+}
+.leaflet-container {
+  width: 95%;
+  height: 90%;
+}
+
+.flight-card {
+  min-width: 110px;
 }

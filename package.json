@@ -4,16 +4,23 @@
   "homepage": "https://jeharcha.github.io/Torre-DDControl/",
   "private": true,
   "dependencies": {
+    "@react-leaflet/core": ">=1.0.0 <1.1.0 || ^1.1.1",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
     "leaflet": "^1.7.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
-    "react-leaflet": "^3.2.0",
+    "react-leaflet": ">=3.1.0 <3.2.0 || ^3.2.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "socket.io": "^4.1.2",
-    "web-vitals": "^1.1.2"
+    "socket.io-client": "^4.1.2",
+    "web-vitals": "^1.1.2",
+    "ws": "^7.4.5"
   },
   "scripts": {
     "start": "react-scripts start",

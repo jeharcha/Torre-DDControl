@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import '../styles/index.css';
 
-function Board() {
+function Tutorial() {
   const [{ count, count2 }, setCount] = useState({ count: 10, count2: 20 });
   const [count3, setCount3] = useState(30);
 
   return (
-    <div className="Board">
-      <p>Soy el board</p>
+    <div className="Tutorial">
+      <p>Soy el board tutorial </p>
       <p>Sup</p>
       <button
         onClick={() => {
@@ -27,4 +27,4 @@ function Board() {
   );
 }
 
-export default Board;
+export default Tutorial;
