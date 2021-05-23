@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import socketIOClient from 'socket.io-client';
 
-const SOCKET_SERVER_URL = 'http://tarea-3-websocket.2021-1.tallerdeintegracion.cl';
+const SOCKET_SERVER_URL = 'wss://tarea-3-websocket.2021-1.tallerdeintegracion.cl';
 const NEW_CHAT_MESSAGE_EVENT = 'CHAT';
 
 const useChat = () => {
