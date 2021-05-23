@@ -11,7 +11,7 @@ import { useState } from 'react';
 const ChatRoom = (props) => {
   const { messageObjects, sendMessageObject } = useChat(); // Creates a websocket and manages messaging
   const [newMessage, setNewMessage] = useState(''); // Message to be sent
-  const SENDER_NAME = 'Wassim ';
+  const SENDER_NAME = 'Navon ';
 
   const handleNewMessageChange = (event) => {
     // Checks wether the change was becouse of an Enter key press event,
@@ -44,7 +44,8 @@ const ChatRoom = (props) => {
                 messageObject.name === SENDER_NAME ? 'my-message' : 'received-message'
               }`}
             >
-              ({new Date(messageObject.date).toUTCString()}){messageObject.name} {': '}
+              ({new Date(messageObject.date).toUTCString().substr(0, 25)})
+              {'\n' + messageObject.name} {': '}
               {messageObject.message}
             </li>
           ))}

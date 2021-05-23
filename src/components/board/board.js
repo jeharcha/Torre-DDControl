@@ -34,6 +34,11 @@ const Board = ({}) => {
     // <div> Hola</div>
     <div>
       <p>Flights Board</p>
+      {/* <CardGroup>
+        {flightObjects.map((flightObject) => (
+          <Flight thisFlight={flightObject} />
+        ))}
+      </CardGroup> */}
       <div className="row-container">
         {flightObjects.map((flightObject) => (
           <Flight thisFlight={flightObject} />

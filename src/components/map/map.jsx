@@ -57,16 +57,7 @@ function Map() {
   const plane_url = 'https://cdn-0.emojis.wiki/emoji-pics/facebook/airplane-facebook.png';
   // var myicon = new L.icon({iconUrl: plane, iconAnchor: new L.Point(16, 16)});
   const bounds = new LatLngBounds([-34.82264, -58.533321], [-33.382761, -70.803203]);
-  // let bound = ([
-  //   [
-  //     center[1] - height / 2,
-  //     center[0] - width / 2
-  //   ],
-  //   [
-  //     center[1] + height / 2,
-  //     center[0] + width / 2
-  //   ]
-  // ]);
+
   const limeOptions = { color: 'lime' };
   const redOptions = { color: 'red' };
   const blueOptions = { color: 'blue' };
@@ -116,17 +107,6 @@ function Map() {
     return () => {};
   }, [socket, handleFlights]);
 
-  // useEffect(() => {
-  //   // as soon as the component is mounted, do the following tasks:
-  //   // subscribe to socket events
-  //   socket.emit("POSITION", {});
-  //   //receive events
-  //   socket.on('POSITION', pos => handlePositions(pos));
-
-  //   return () => {
-  //   };
-  // }, [socket, handlePositions]);
-
   return (
     <div>
       <link
@@ -140,31 +120,23 @@ function Map() {
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""
       ></script>
-      <div className="Map">Mapa en tiempo real</div>
+      <div>Real Time Map</div>
       <div id="mapid">
         <MapContainer
           center={[-38.45, -70.666667]}
           zoom={4}
-          scrollWheelZoom={false}
+          scrollWheelZoom={true}
           className="leaflet-container"
         >
-          <TileLayer
-            // attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           {/* <ImageOverlay
             url={plane_url}
             bounds={bounds}
             zIndex={10}
           /> */}
           {polylinesList.map((polyline, i) => (
-            <Polyline pathOptions={colorOptions[i % 5]} positions={polyline} />
+            <Polyline pathOptions={colorOptions[i % 4]} positions={polyline} />
           ))}
-          <Marker position={[0, 0]}>
-            <Popup>
-              A pretty CSS3 popup. <br /> Easily customizable.
-            </Popup>
-          </Marker>
         </MapContainer>
       </div>
     </div>
