@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Torre-DDControl/static/css/main.6bbf68a8.chunk.css",
-    "main.js": "/Torre-DDControl/static/js/main.67e85f2b.chunk.js",
-    "main.js.map": "/Torre-DDControl/static/js/main.67e85f2b.chunk.js.map",
+    "main.js": "/Torre-DDControl/static/js/main.5055d384.chunk.js",
+    "main.js.map": "/Torre-DDControl/static/js/main.5055d384.chunk.js.map",
     "runtime-main.js": "/Torre-DDControl/static/js/runtime-main.6e967674.js",
     "runtime-main.js.map": "/Torre-DDControl/static/js/runtime-main.6e967674.js.map",
     "static/js/2.cb32d7bb.chunk.js": "/Torre-DDControl/static/js/2.cb32d7bb.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.6e967674.js",
     "static/js/2.cb32d7bb.chunk.js",
     "static/css/main.6bbf68a8.chunk.css",
-    "static/js/main.67e85f2b.chunk.js"
+    "static/js/main.5055d384.chunk.js"
   ]
 }
