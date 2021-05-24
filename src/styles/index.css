@@ -16,7 +16,7 @@ div {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
 }
 .a-padding {
   padding: 5px 5px;
@@ -60,7 +60,7 @@ p {
 }
 
 #mapid {
-  height: 250px;
+  height: 360px;
 }
 .leaflet-container {
   width: 95%;
