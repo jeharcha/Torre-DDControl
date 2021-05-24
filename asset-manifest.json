@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Torre-DDControl/static/css/main.6bbf68a8.chunk.css",
-    "main.js": "/Torre-DDControl/static/js/main.5055d384.chunk.js",
-    "main.js.map": "/Torre-DDControl/static/js/main.5055d384.chunk.js.map",
+    "main.css": "/Torre-DDControl/static/css/main.b1f25462.chunk.css",
+    "main.js": "/Torre-DDControl/static/js/main.3a3aa747.chunk.js",
+    "main.js.map": "/Torre-DDControl/static/js/main.3a3aa747.chunk.js.map",
     "runtime-main.js": "/Torre-DDControl/static/js/runtime-main.6e967674.js",
     "runtime-main.js.map": "/Torre-DDControl/static/js/runtime-main.6e967674.js.map",
-    "static/js/2.cb32d7bb.chunk.js": "/Torre-DDControl/static/js/2.cb32d7bb.chunk.js",
-    "static/js/2.cb32d7bb.chunk.js.map": "/Torre-DDControl/static/js/2.cb32d7bb.chunk.js.map",
+    "static/js/2.944ad946.chunk.js": "/Torre-DDControl/static/js/2.944ad946.chunk.js",
+    "static/js/2.944ad946.chunk.js.map": "/Torre-DDControl/static/js/2.944ad946.chunk.js.map",
     "index.html": "/Torre-DDControl/index.html",
-    "static/css/main.6bbf68a8.chunk.css.map": "/Torre-DDControl/static/css/main.6bbf68a8.chunk.css.map",
-    "static/js/2.cb32d7bb.chunk.js.LICENSE.txt": "/Torre-DDControl/static/js/2.cb32d7bb.chunk.js.LICENSE.txt",
+    "static/css/main.b1f25462.chunk.css.map": "/Torre-DDControl/static/css/main.b1f25462.chunk.css.map",
+    "static/js/2.944ad946.chunk.js.LICENSE.txt": "/Torre-DDControl/static/js/2.944ad946.chunk.js.LICENSE.txt",
     "static/media/Aircraft.d9efd3e7.png": "/Torre-DDControl/static/media/Aircraft.d9efd3e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e967674.js",
-    "static/js/2.cb32d7bb.chunk.js",
-    "static/css/main.6bbf68a8.chunk.css",
-    "static/js/main.5055d384.chunk.js"
+    "static/js/2.944ad946.chunk.js",
+    "static/css/main.b1f25462.chunk.css",
+    "static/js/main.3a3aa747.chunk.js"
   ]
 }
